@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Lapiz",
+    "price": 1.2,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/pencil-pen-stationery-school-256.png"
+  },
+  {
+    "title": "Regla",
+    "price": 1.7,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png"
+  }
+]
