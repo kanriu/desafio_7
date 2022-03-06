@@ -24,7 +24,8 @@ class Message {
   }
 
   async init() {
-    await this.db.schema.createTableIfNotExists("messages", (table) => {
+    await this.db.schema.dropTableIfExists("messages");
+    await this.db.schema.createTable("messages", (table) => {
       table.increments("id");
       table.string("email");
       table.datetime("date");

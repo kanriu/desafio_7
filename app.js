@@ -36,8 +36,9 @@
         socket.broadcast.emit("product", item);
       });
 
-      socket.on("message", (item) => {
+      socket.on("message", async (item) => {
         messages.push(item);
+        await Message.createRegister(item);
         socket.broadcast.emit("message", item);
       });
 
